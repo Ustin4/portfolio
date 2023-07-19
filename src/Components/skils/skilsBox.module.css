@@ -1,0 +1,44 @@
+/* skilsBox.module.css */
+
+.box {
+
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    top: 0;
+}
+
+.nameSkils {
+    background-color: white;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    min-height: 100px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+@media screen and (max-width: 767px) {
+    .box {
+
+        width: 100%;
+    }
+}
